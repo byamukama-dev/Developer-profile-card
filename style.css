@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background: oklch(0.746 0.16 232.661);
+min-height: 100vh;
+font-family: "Inter", sans-serif;
+}
+
+.img1{
+ height:   100px;
+ width: 100px;
+ border-radius: 50%;
+ object-fit: cover;
+ border: 2px solid black;
+}
+.devcard{
+    width: 40vw;
+    
+    display: flex;
+    justify-content: space-between;
+   height: 90%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+    
+}
+.dev-details{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:white ;
+    
+}
+
+.dev-stat{
+    width: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem
+}
+.stat{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #e9c8c8;
+    
+}
+.stat-number{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.stat-title{
+    font-size: 0.9rem;
+    color: rgb(29, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.buttons{
+    padding: 5px 25px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color:white ;
+    margin:5px 0;
+    padding: 10px 20px
+
+    
+  
+}
+
+
+.Message:hover{
+    background: rgb(177, 177, 103);
+}
+.Follow:hover{
+    background: rgb(221, 116, 195);
+}
+.Follow{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+    height: 26px;
+}
+.Message{
+    border-color: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: white;
+    height: 26px;
+}
+.name{
+    font-size: 20px;
+}
+.head{
+    font-size: 10px;
+    
+    color: rgb(77, 72, 72);
+}
+.dev-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
